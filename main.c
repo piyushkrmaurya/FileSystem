@@ -92,8 +92,7 @@ int main(int argc, char *argv[])
 
         len = 0;
 
-        printf("\033[1m\033[32m"
-               "oslab@iitbhu\033[0m:\033[1m\033[34m");
+        printf("\033[1m\033[32moslab@iitbhu\033[0m:\033[1m\033[34m");
 
         /* Show path */
         arg_vec = pathVecOfTree(getWorkDirNode());
